@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/bootstrap.css">
+    <link rel="stylesheet" href="style/allcars.css">
+
+    <title>All cars</title>
+</head>
+<body> 
+    <header><h1 class="titre w-50">All cars</h1></header>
+    
+    <div class="container">
+            <h3>Categorie :</h3><br>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">-Sportif</li>
+        <li class="list-group-item">-Familial</li>
+        <li class="list-group-item">-Plaisir</li>
+        <li class="list-group-item">-Mini</li>
+      </ul>
+    </div>
+    <div class="container mt-5">
+    <input type="text" id="search" class="form-label mb-10 " placeholder="marque/categorie">
+    <button  id="tady" class="btn btn-primary m-3">Search</button>
+    <button  onclick="displaycars(cars)" id="aseho" class="btn btn-warning">> tout afficher</button>
+</div>
+<div class="row"id="carlist">
+
+
+</div>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/allcars.js">
+        
+    </script>
+</body>
+</html>

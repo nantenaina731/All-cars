@@ -1,0 +1,14 @@
+
+header{
+    background-color:  rgb(58, 58, 202);
+    background-attachment: fixed;
+}
+*{ 
+    margin: 0;
+    padding: 0;
+}
+.titre{
+    color: white;
+    margin-right: 5px;
+    padding: 4px;
+}
